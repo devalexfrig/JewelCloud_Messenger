@@ -1,0 +1,467 @@
+/*Header*/
+
+html, body{
+	margin:0 auto;
+	padding:0;
+	margin-top:20px;
+	overflow:hidden; 
+} 
+
+.topbar{
+	position:fixed;
+	background:#fff;
+	height:20px;
+	width:100%;
+	top:0;	
+} 
+
+div[data-role="page"]{
+	background-image:url('../img/main_bg.jpg');  
+	background-repeat: repeat; 
+	background-size: 100% 100%;
+	margin: 0 auto;
+	padding:0;
+	padding-bottom:40px;
+}
+
+div[data-role="content"]{
+	margin: 0 auto;
+	padding:0;
+	margin-top:35px;
+	margin-bottom:35px;
+}  
+
+[data-role="header"]{
+	position:fixed;
+	top:20px;
+	width:100%;
+	text-align:center;
+	background:#000;
+	z-index:99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.logo{
+	float:left;
+	margin-left:10px;
+	width:200px;
+}
+ 
+/*Footer*/
+
+[data-role="footer"]{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center; 
+	background:#000;
+	z-index:99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}  
+
+p.footerIconFirst{
+	float:left;
+	margin-left:20px;
+}
+
+p.footerIconNext{
+	float:left;
+	margin-left:20px;
+}
+
+/*Navigation*/
+
+span#nav{
+	float:left; 
+	margin-top:0px;
+	margin-left:5px;	
+}
+
+img.menuButton{
+	float:left;
+	width:30px;
+	margin-top:15px;
+	margin-left:10px;
+}
+ 
+img.settingsButton{
+	float:right;
+	width:30px;
+	margin-top:7px;
+	margin-left:15px;
+}
+
+.sideBarTab{
+	position:fixed;
+	display:block;
+	top:71px;
+	left:0;
+	width:100px; 
+	height:100%;
+	background:#e6e6e6;
+}
+
+a img:hover{
+	opacity:0.6;
+}  
+
+img:hover{
+	opacity:0.6;
+}
+
+.sidebar{
+	z-index:99999;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:71px;
+	width:0px;
+	background:#e6e6e6;
+}
+
+.settingsDropdown{
+	display:none;
+	z-index:99999;
+	position:fixed;
+	top:68px;
+	height:0px; 
+	background:#404041;
+	right:0;   
+}
+
+ul.settingsList{
+	padding:0;
+	list-style-type:none;
+}
+
+ul.settingsList li{
+	background:#404041;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff; 
+	min-height:20px;  
+}
+
+ul.sidebarList{
+	padding:0;
+	list-style-type:none;
+	display:none;
+}
+
+ul a{
+	text-decoration:none;
+}
+
+ul.sidebarList li{
+	background:#404041;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff; 
+	min-height:20px;
+}
+
+li{
+	color:#fff;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/*Buttons*/
+
+input{
+	margin:auto;
+	display:block;
+	margin-top:50px;
+}
+
+input#username{
+	width:70% !important;
+	margin:auto !important;
+	margin-top:50px !important;  
+}
+
+input#password{
+ 	width:70% !important;
+	margin:auto !important;
+	margin-top:10px !important;  
+}
+
+#loginSubmit{
+	width:70% !important;
+	margin:auto !important;
+	padding:10px;
+	border-radius:10px 10px 10px 10px;
+	text-align:center;
+	background:#e6e6e6;
+	margin-top:20px !important;  
+} 
+
+#loginSubmit:hover{
+	opacity:0.7;
+}
+
+/*Home View*/
+
+table#homeView td a:hover{
+	opacity:0.7;
+}
+
+img.homeIcon{
+	width:80px;
+	float:left;
+	margin-bottom:10px;
+	margin-left:30px;
+}
+
+img.homeIconNext{
+	width:80px;
+	float:left;
+	margin-left:30px; 
+	margin-bottom:10px;
+}  
+
+table#homeView, table#homeView tr{
+	margin:auto;
+	display:block;
+	text-align:center;
+	width:100%;
+}   
+
+table#homeView{
+	margin-top:20px;
+}
+
+table#homeView tr{
+	margin-left:25px;
+}
+
+/*Main Screen*/
+
+.content{
+	margin-top: 35px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%; 
+	text-align: left;
+	margin-bottom:54px; 
+}
+
+.contactHeader{
+	padding-bottom:10px;
+	background:#dcd8d4;
+}
+
+span.subheader{
+	padding-top:5px;
+}
+
+.contentText{
+	font-size:10px;
+	/*padding-bottom:10px;*/
+}
+
+.dashboardRow{
+	font-size:10px; 
+	height:40px;
+	width:100%; 
+}
+
+/*Dashboard View*/
+
+.contacts{
+	width:100%;
+	float:left;
+	padding-bottom:70px !important;
+}
+
+p.date{
+	font-weight:bold;
+}
+
+p.float{
+	float:left;
+	margin-left:60px;
+	font-size:12px;
+	color:#6a6b6d;
+}
+
+p.floatNext{
+	float:left;
+	margin-left:30px;
+	font-size:12px;
+	color:#fff; 
+}
+
+span#dashboardSelect{
+	color:#6a6b6d;
+}
+
+span#requestSelect{
+	color:#fff;
+}
+
+span#dashboardSelect, span#requestSelect{
+	font-size:12px;
+}
+
+img.head{
+	width:20px;
+	vertical-align:middle;
+	margin-top:-5px;
+	padding-right:5px;
+}
+
+table#dashboardView{
+	width:100%;
+	margin:auto;
+	display:block;
+}
+
+table#dashboardView tr, table#dashboardView tbody, table#dashboardView td{
+	width:100%;
+	text-align:center;
+	display:block;
+	vertical-align:middle;
+}
+
+table#dashboardView tr{
+	height:35px;
+	vertical-align:middle; 
+}
+ 
+table#dashboardView tr p{
+	vertical-align:middle; 
+}
+
+table#dashboardView td, table#dashboardView td{
+	font-size:10px;
+}
+ 
+/*Contacts View*/
+
+tr.contactsResults{
+	text-align:left;
+}
+
+tr.letterHeader{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+table.contactsNav{
+	width:40px;
+	position:fixed;
+	float:right;
+	right:0;
+	z-index:9999999999999999999999999999999999999999999999999999999999999;
+	background:#000; 
+	top:80px;
+	border-radius:5px 5px 5px 5px;
+} 
+
+table.contactsNav td, table.contactsNav tr{
+	text-align:center; 
+	padding-bottom:1.9px;    
+} 
+table.contactsNav tr td, table.contactsNav tr{
+	text-align:center;
+	font-size:7.5px;
+	background:#000;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+input#contactsSearch{
+	width:60%; 
+	margin:auto;
+	vertical-align:middle;
+	border-radius:10px 10px 10px 10px;
+	margin-top:-3px;
+	text-indent:10%;
+}
+
+img#searchIcon{
+	position:absolute;
+	left:6%;
+	max-width:12px;
+	top:12px;
+}
+
+table#dashboardView td{
+	position:relative;
+}
+
+a.contact{
+	text-decoration:none;
+	font-family:arial;
+	color:#000;
+}
+
+tr#rowA td, tr#rowB td, tr#rowC td, tr#rowD td, tr#rowE td, tr#rowF td, tr#rowG td, tr#rowH td, tr#rowI td, tr#rowJ td, tr#rowK td, tr#rowL td, tr#rowM td, tr#rowN td, tr#rowO td, tr#rowP td, tr#rowQ td, tr#rowR td, tr#rowS td, tr#rowT td, tr#rowU td, tr#rowV td, tr#rowW td, tr#rowX td, tr#rowY td, tr#rowZ td{padding-top:10px;}
+
+/*Send Message Screen*/
+
+input.messageInput{
+	width:50%;
+	height:30px;  
+	margin-bottom:20px;
+	position:absolute;
+	left:15px;  
+	bottom:-13px;
+}  
+
+span.sendButton{
+	padding:10px;
+	text-align:center;
+	background:#e6e6e6;
+	font-family:arial;
+	font-size:12px;
+	height:15px;
+	float:right;
+	margin-top:7px;
+	margin-right:6%;
+	width:20%;
+} 
+
+.date{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+.userMessage{
+	background:#23a3c2;
+	padding:20px;
+	border-radius:10px 10px 10px 10px;
+	max-width:70%;
+	float:right;
+	margin-right:5%;
+	clear:right;
+}
+
+.contactMessage{
+	background:#d8d7d7;
+	padding:20px; 
+	border-radius:10px 10px 10px 10px;
+	max-width:70%;
+	float:left;
+	margin-left:5%; 
+	clear:left;
+}
+
+.staticInputBar{
+	position:fixed;
+	height:50px;
+	width:100%;
+	background:#000;
+	bottom:0px;
+	left:0;
+	right:0; 
+}
+
+.fixfixed div[data-role="header"], 
+.fixfixed div[data-role="footer"] { 
+    position: absolute; 
+} 
+
+#loadingDiv{ 
+	z-index:9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}

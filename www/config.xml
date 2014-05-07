@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.phonegap.hello-world"
+        version = "2.0.0">
+<name>AngleHound</name>
+<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.1" />
+<description>
+        Hello World sample application that responds to the deviceready event.
+</description>
+<access origin="http://arlink.wikitude.com?dk=bfgiydz" subdomains="true" />
+</widget>

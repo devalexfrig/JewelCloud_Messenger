@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>>
+<title>JewelCloud Messenger</title> 
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1">  -->   
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.css" />
+      <link rel="stylesheet" href="css/style.css" media="all"> 
+      <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.js"></script>
+      <script type="text/javascript" src="js/ajax.js"></script>
+      <script type="text/javascript" src="js/onLoad.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+
+</head>  
+<body>
+<!-- Start of home page -->
+<div data-role="page" id="page1">
+	<div id="loadingDiv" style="display:none;position:fixed;top:50%;left:50%;z-index:9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;color:red;font-size:20px;"><img src="img/ajax-loader.gif" /></div>     
+	<div class="topbar"></div>
+	<div data-role="header">
+		<span id="nav">
+			<img class="menuButton" src="img/menu_button.png" />
+			<img class="logo" src="img/JewelCloud_Logo.png" />
+			<img class="settingsButton" src="img/settings_button.png" />
+			<div class="settingsDropdown">
+				<ul class="settingsList"> 
+  				<a id="pushNotifications" href="#"><li>Push Notifications</li></a> 
+  				<a id="help" href="#"><li>Help</li></a>
+  				<a id="logout" href="#"><li>Sign Out</li></a>
+  			</ul> 
+			</div>
+		</span>
+	</div><!-- /header --> 
+
+	<div data-role="content">	
+		<!-- <div id="loadingDiv" style="position:fixed;top:50%;left:50%;z-index:9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;color:red;font-size:20px;"><img src="img/ajax-loader.gif" /></div>      -->
+		<!-- <div class="sideBarTab"></div>  -->
+		  
+  		<div class="sidebar">
+  			<ul class="sidebarList">
+  				<a id="dashboard" href="#"><li>Dashboard</li></a> 
+  				<a id="contacts" href="#"><li>Contacts</li></a>
+  				<a id="storeLocator" href="#"><li>Store Locator</li></a>  
+  				<li></li> 
+  				<li></li>
+  				<li></li>
+  				<li></li>
+  				<li></li>
+  				<li></li>
+  				<li></li>
+  			</ul> 
+  		</div>
+  		
+  		<div class="content">
+  				<input class="middlepage" type="text" id="username" />
+  				<input type="password" id="password" />
+  				<div id="loginSubmit" style="width:100px !important;">Log In</div> 
+  		</div> 
+         
+	</div><!-- /content -->
+	<div data-role="footer"> 
+			<!-- <img class="logo" src="img/JewelCloud_Logo.png" />  -->
+			<!-- <p class="footerIconFirst"><a href="#" id="dashboard">Home</a></p>
+			<p class="footerIconNext"><a href="#" id="contacts">Contacts</a></p>
+			<p class="footerIconNext"><a href="#" id="message">Msg</a></p>  -->
+			<!-- <p class="footerIconNext logout"><a href="#" id="logout">Log Out</a></p>   -->
+	</div><!-- /footer --> 
+</div><!-- /page -->
+
+<!-- end of home page -->
+  
+</body> 
+</html>

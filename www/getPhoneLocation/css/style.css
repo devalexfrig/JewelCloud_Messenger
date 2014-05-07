@@ -1,0 +1,22 @@
+.div{ 
+	display:block;
+	text-align:center;
+	margin:auto; 
+}
+p#find{
+	font-size:80px;
+	text-align:center;
+	display:none;
+}
+p#address{
+	font-size:80px;
+}
+p.loading{
+	display:block;
+	font-size:80px;
+	text-align:center;
+}
+img#googleMap{
+	display:block;
+	margin:auto;
+}

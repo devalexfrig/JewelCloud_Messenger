@@ -1,0 +1,25 @@
+.div{ 
+	display:block;
+	text-align:center;
+	margin:auto; 
+}
+p#find{
+	font-size:80px;
+	text-align:center;
+	display:none; 
+	margin:auto; 
+}
+p#address{
+	font-size:80px;
+	margin:auto;
+}
+p.loading{
+	display:block;
+	font-size:80px;
+	text-align:center;
+	margin:auto;
+}
+img#googleMap{
+	display:block;
+	margin:auto;
+}
